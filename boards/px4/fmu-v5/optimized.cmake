@@ -56,6 +56,7 @@ px4_add_board(
 		#roboclaw
 		#rpm
 		safety_button
+		smart_battery/batmon
 		#telemetry # all available telemetry drivers
 		test_ppm
 		tone_alarm
@@ -99,7 +100,7 @@ px4_add_board(
 	SYSTEMCMDS
 		#bl_update
 		dmesg
-		dumpfile
+		#dumpfile
 		#esc_calib
 		#gpio
 		hardfault_log
@@ -107,7 +108,7 @@ px4_add_board(
 		led_control
 		mft
 		mixer
-		motor_ramp
+		#motor_ramp
 		motor_test
 		mtd
 		nshterm
@@ -129,7 +130,7 @@ px4_add_board(
 		work_queue
 	EXAMPLES
 		fake_gps
-		#fake_gyro
+		#fake_imu
 		#fake_magnetometer
 		#fixedwing_control # Tutorial code from https://px4.io/dev/example_fixedwing_control
 		#hello
